@@ -4,13 +4,13 @@ body {
   }
   #map {
     position: absolute;
-    top: 0;
+    top: 40;
     bottom: 0;
     width: 100%;
   }
-  
   .map-overlay {
     position: absolute;
+    top: 40;
     left: 0;
     padding: 10px;
   }
@@ -19,5 +19,28 @@ body {
     border-radius: 15%;
     background-color:#3F4C55;
     color:aliceblue;
-      font-size: 30px;
+    font-size: 30px;
+    margin:5px 0px;
+  }
+  a:link {
+    position:absolute;
+    color: black;
+    font-size: 25px;
+    padding-left: 50px;
+  }
+  a:active {
+      color: black;
+      font-size: 25px;
+      padding-left: 50px;
+  }
+  a:visited {
+    color: black;
+    font-size: 25px;
+    padding-left: 50px;
+  }
+  a:hover {
+    color: black;
+    font-size: 30px;
+    padding-left: 50px;
+  font-weight: bold;
   }
