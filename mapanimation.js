@@ -39,4 +39,3 @@ const busStops = [
   if (typeof module !== 'undefined') {
     module.exports = { move, counter, marker, busStops };
   }
-  
